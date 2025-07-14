@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>         
+</head>
+<body>
+    <button id="myButton">Click Me</button>
+    <p id="myElement">23u</p>
+    <script>
+    document.getElementById("myButton").addEventListener("click", function() {
+    alert("Button was clicked !");
+});
+document.getElementById("myElement").addEventListener("mouseover", function() {
+   this.style.color="red";
+});
+document.getElementById("myElement").addEventListener("mouseout", function() {
+      this.style.color="green ";
+});  
+</script>
+</body>  
+</html>
